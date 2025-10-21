@@ -1,3 +1,41 @@
-<head>
-<link  <link rel="stylesheet" href="styles.css" />
-</head>
+ <style>
+    	form{
+		front-family:font-family: Verdana, Geneva, Tahoma, sans-serif;
+		background:#DBA4ED ;
+		padding: 25px;
+		border-radius:18px;
+		width: 400px;
+		box-shadow:0 0 12px rgba(165, 65, 117, 0.77) ;
+    	}
+    	label{
+    	  font-weight:bold;
+    	}
+    	input,textarea,select{
+    	  width: 98%;
+    	  padding: 6px;
+    	  margin-top: 4px;
+    	  margin-bottom: 5px;
+    	  border: 2.5px solid #D4E6B3;
+    	}
+    	img {
+    	  width: 150px;
+        height: auto;
+        box-shadow:0 0 12px rgba(165, 65, 117, 0.77) ;
+       
+    	}
+    	 li{
+         color: #E324B6;
+        }
+        h1{
+        color: #FFD300;
+      }
+      h4{
+       font-size:150% ; 
+      }
+      h3{
+        color:#FFD300;
+      }
+      ol{
+        color:#B14E83;
+      }
+  </style>
