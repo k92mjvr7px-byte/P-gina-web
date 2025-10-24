@@ -10,7 +10,6 @@ body {
 
 header, footer {
   font-family: Garamond;
-  font-size: 20px;
   text-align: center;
   background-color: #DCC9ED;
   padding: 10px;
@@ -24,6 +23,35 @@ header, footer {
 
 main {
   padding: 20px;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #E7C4F7;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(136, 4, 72, 0.3);
+  margin-top: 10px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #772C6A;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #C7389C;
 }
 
 /* Secciones */
@@ -51,7 +79,7 @@ li {
   margin-bottom: 6px;
 }
 
-/* Galería */
+/* Galería de libros */
 .imagenes {
   display: flex;
   flex-wrap: wrap;
@@ -68,6 +96,35 @@ li {
 }
 
 .imagenes img:hover {
+  transform: scale(1.05);
+}
+
+/* Sección de series */
+.series {
+  background-color: #F9E6FF;
+}
+
+.lista-series li {
+  color: #A2408E;
+  margin-bottom: 5px;
+}
+
+.imagenes-series {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.imagenes-series img {
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(165, 65, 117, 0.7);
+  transition: transform 0.3s;
+}
+
+.imagenes-series img:hover {
   transform: scale(1.05);
 }
 
@@ -117,4 +174,15 @@ button:hover {
 footer p {
   font-size: 0.9em;
   color: #772C6A;
+}
+nav{
+
+   width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1.5px solid #C9E5ED;
+  border-radius: 6px;
+  font-family: inherit;
+  
+
 }
