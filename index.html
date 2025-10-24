@@ -11,10 +11,18 @@
 
   <header>
     <h1 class="titulo-principal">Leslie María Cristóbal Jiménez</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#presentacion">Presentación</a></li>
+        <li><a href="#libros">Libros</a></li>
+        <li><a href="#series">Series vistas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="presentacion">
+    <section id="presentacion" class="presentacion">
       <p>
         Soy estudiante de la carrera de <b>Ingeniería en Computación</b> de quinto semestre en la
         Universidad del Istmo, campus Tehuantepec.
@@ -45,8 +53,9 @@
       </ol>
     </section>
 
-    <section class="galeria">
-      <h4>Aquí se pueden apreciar las portadas de los libros leídos:</h4>
+    <section id="libros" class="galeria">
+      <h3>LIBROS LEÍDOS</h3>
+      <p>Aquí se pueden apreciar las portadas de los libros leídos:</p>
       <div class="imagenes">
         <img src="https://img.wattpad.com/cover/183757156-256-k375395.jpg" alt="El Perfume del rey">
         <img src="https://www.mundilibros.cl/wp-content/uploads/2024/03/1710451477.png" alt="Pecados placenteros">
@@ -57,7 +66,27 @@
       </div>
     </section>
 
-    <section class="formulario">
+    <section id="series" class="series">
+      <h3>SERIES VISTAS</h3>
+      <p>
+        Me encanta ver telenovelas mexicanas y K-dramas. Estas son algunas de mis favoritas:
+      </p>
+      <ul class="lista-series">
+        <li>La fea más bella</li>
+        <li>Mi amor de las estrellas</li>
+        <li>Goblin</li>
+        <li>It's Okay to Not Be Okay</li>
+        <li>Vencer el pasado</li>
+      </ul>
+
+      <div class="imagenes-series">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/2a/Goblin_poster.jpg" alt="Goblin">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/My_Love_From_the_Star_poster.jpg" alt="Mi amor de las estrellas">
+        <img src="https://m.media-amazon.com/images/I/91D9O6k9dEL._AC_UF1000,1000_QL80_.jpg" alt="La fea más bella">
+      </div>
+    </section>
+
+    <section id="contacto" class="formulario">
       <h2>Formulario de contacto</h2>
       <form action="formulario.php" method="POST">
         <label for="nombre">Nombre:</label>
