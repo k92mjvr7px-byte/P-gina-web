@@ -136,48 +136,47 @@ li {
    background-color: #F87C63;
 }
 
-/* Formulario */
-form {
-  background-color: #DBA4ED;
-  padding: 25px;
-  border-radius: 18px;
-  width: 90%;
-  max-width: 400px;
-  margin: 0 auto;
-  box-shadow: 0 0 12px rgba(165, 65, 117, 0.77);
+/* Contacto */
+.contact {
+  background-color: #f4e4fc;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
-label {
-  display: block;
-  font-weight: bold;
-  margin-top: 10px;
-  color: #5A275A;
+.contact h2 {
+  font-family: "Playfair Display", serif;
+  color:#d81b8f;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 input, textarea {
   width: 100%;
-  padding: 8px;
-  margin-top: 6px;
-  border: 2.5px solid #D4E6B3;
-  border-radius: 6px;
-  font-family: inherit;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
 }
 
-button: {
-  margin-top: 12px;
-  background-color: #C7389C;
+button {
+  background-color: #d81b60;
   color: white;
-  padding: 10px 18px;
   border: none;
-  border-radius: 10px;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
   cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #B52F8C;
-  transform: scale(1.1);
+  background-color: #f183b3;
 }
 
 /* Footer */
