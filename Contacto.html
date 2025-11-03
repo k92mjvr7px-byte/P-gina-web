@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de contacto</title>
+  <!-- Este CSS es solo para esta página -->
+  <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+  <h1 class="fort">Contáctanos</h1>
+
+  <!-- Sección identificada para enlazar desde otra página -->
+  <section id="formulario" class="contact">
+    <h2>Formulario de contacto</h2>
+
+    <form action="formulario.php" method="POST" class="contact-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="numero">Número:</label>
+      <input type="number" id="numero" name="numero" required>
+
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+</body>
+</html>
