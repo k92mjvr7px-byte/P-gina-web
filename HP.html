@@ -12,19 +12,28 @@
        font-family: Garamond;
     }
     .contenedor {
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 20px;
       max-width: 800px;
-      margin: auto;
-      padding: 20px;
     }
     .portada {
       width: 100%;
       max-width: 300px;
+      object-fit: cover;
       display: block;
       margin: 0 auto 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(11, 103, 207, 0.57);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+     .portada:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(247, 124, 99, 0.8);
     }
     h1 {
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
     .sinopsis {
       margin-top: 20px;
@@ -34,6 +43,9 @@
       display: block;
       margin-top: 30px;
       text-align: center;
+    }
+     p {
+      text-align: justify;
     }
   </style>
 </head>
