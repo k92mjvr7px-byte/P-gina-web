@@ -68,3 +68,17 @@ h1.fort {
 .btn-enviar:hover {
   background-color: #4A1F6B;
 }
+.volver-inicio {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #700557; 
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.volver-inicio:hover {
+  background-color: #732d91;
+}
