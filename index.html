@@ -57,24 +57,22 @@
       <h3>LIBROS LEÍDOS</h3>
       <p>Aquí se pueden apreciar las portadas de los libros leídos:</p>
       <div class="imagenes">
-        <a href="perfume.html">
-        <img src="https://img.wattpad.com/cover/183757156-256-k375395.jpg" alt="El Perfume del rey">
+         <a href="perfume.html">
+          <img src="https://img.wattpad.com/cover/183757156-256-k375395.jpg" alt="El Perfume del rey">
         </a>
         <a href="PP.html">
         <img src="https://www.mundilibros.cl/wp-content/uploads/2024/03/1710451477.png" alt="Pecados placenteros">
-        </a>
-        <a href="HP.html">
+      </a>
+      <a href="HP.html">
         <img src="https://i.pinimg.com/originals/e2/e9/48/e2e94826789e4aef9b2c6e1e7ed94bd6.jpg" alt="Harry Potter">
-        </a>
-        <a href="crepusculo.html">
-        <img src="https://cdn.kobo.com/book-images/3443d757-5351-4141-a641-bc0d72aceabf/1200/1200/False/box-crepusculo.jpg" alt="Crepúsculo">
-        </a>
-        <a href="AE.html">
-        <img src="https://1.bp.blogspot.com/-knmdst-1Mmc/XYEyo9NkysI/AAAAAAAAHXc/QjT2IJ8XAZ0EIvAU_YgcB1Pd4rSAIwgjgCLcBGAsYHQ/s1600/AAE.png" alt="Algo absolutamente extraordinario">
        </a>
+       <a href="crepusco.html">
+         <img src="https://cdn.kobo.com/book-images/3443d757-5351-4141-a641-bc0d72aceabf/1200/1200/False/box-crepusculo.jpg" alt="Crepúsculo">
+        </a>
+        <a href="AE.html"><img src="https://1.bp.blogspot.com/-knmdst-1Mmc/XYEyo9NkysI/AAAAAAAAHXc/QjT2IJ8XAZ0EIvAU_YgcB1Pd4rSAIwgjgCLcBGAsYHQ/s1600/AAE.png" alt="Algo absolutamente extraordinario">
+        </a>
         <a href="Genesis.html">
-          <img src="https://st.booknet.com/uploads/covers/220/1726633237_57.jpg" alt="Génesis">
-          </a>
+          <img src="https://st.booknet.com/uploads/covers/220/1726633237_57.jpg" alt="Génesis"></a>
       </div>
     </section>
 
@@ -99,30 +97,37 @@
         <img src="https://asianwiki.com/images/6/68/No_Gain_No_Love-mp01.jpeg" alt="NGNL">
       </div>
     </section>
+    
+    <body style="font-family: Arial, sans-serif;">
 
-    <section id="contacto" class="contact">
-      <h2>Contacto</h2>
-      <form action="formulario.php" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
+  
+  <p>Haz clic para ir directamente al formulario:</p>
 
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
+ 
+  <a href="Contacto.html#Contacto">Ir al formulario</a>
 
-        <label for="numero">Número:</label>
-        <input type="number" id="numero" name="numero" required>
+</body>
 
-        <label for="comentarios">Comentarios:</label>
-        <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+    
   </main>
 
   <footer>
     <p>© 2025 Leslie María Cristóbal Jiménez</p>
   </footer>
+<button onclick="topFunction()" id="botonArriba" title="Ir arriba">⬆️</button>
+
+<script>
+  // Mostrar botón al hacer scroll
+  window.onscroll = function() {
+    document.getElementById("botonArriba").style.display =
+      (document.documentElement.scrollTop > 100) ? "block" : "none";
+  };
+
+  // Volver arriba
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 </body>
 </html>
